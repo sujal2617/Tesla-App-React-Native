@@ -21,7 +21,3 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-
-
-
-asdfgbhnhbvcdxsaAZxcv
