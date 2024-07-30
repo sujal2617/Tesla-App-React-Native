@@ -1,10 +1,10 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Dimensions } from 'react-native';
 
 const styles = StyleSheet.create({
 
     carContainer:{
         width:'100%',
-        height:'100%',
+        height:Dimensions.get('screen').height,
       },
     
       titles:{
@@ -16,6 +16,10 @@ const styles = StyleSheet.create({
       title:{
         fontSize: 30,
         fontWeight:'700',
+      },
+      
+      subtitleCTA:{
+        textDecorationLine:'underline',
       },
       
       subtitle:{
